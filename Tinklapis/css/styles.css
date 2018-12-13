@@ -1,0 +1,204 @@
+.bt-primary {
+    background: #00b1f5;
+    border-color: #00b1f5;
+}
+.btn-secondary {
+    background: #08237e;
+    border-color: #08237e;
+}
+.contacts-row {
+    background: #f6fbfe;
+    padding: 0.8em 0;
+}
+.contacts-row li {
+   display: inline; 
+}
+.contacts-row ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.contacts-row li a {
+color: #001446;
+text-decoration: underline;
+font-size: 0.75em;
+text-transform: capitalize;
+}
+.contacts-row .row > div:first-child > ul >li {
+    margin-right: 1em;
+}
+.contacts-row .language-dropdown a {
+    text-decoration: none;
+}
+.contacts-row .language-dropdown .fa-caret-down {
+    color: #00b1f5;
+}
+.contacts-row .language-dropdown {
+    position: relative;
+}
+.contacts-row .language-dropdown:hover> ul {
+    display: block;
+    text-align: center;
+}
+.contacts-row .language-dropdown> ul {
+    position: absolute;
+    padding: 1em;
+    background: #f6fbfe;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    display: none;
+}
+.logo-row {
+    padding: 2em 0;
+}
+.logo-row .contacts-info-col .pre-info {
+    color: #00b1f5;
+    font-weight: bold;
+    font-size: 0.75em;
+    margin-bottom: 0;
+}
+.logo-row .contact-info-col .contact-info {
+    margin-bottom: 0;
+}
+.logo-row .contact-info-col .contact-info a {
+    color: #001446;
+    text-decoration: none;
+}
+.logo-row .contact-info-col .contact-info .email a {
+    text-decoration: underline;
+}
+.logo-row .contact-info-col .quotation-button {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.logo-row .contact-info-col .quotation-button .fa-file {
+    margin-right: 3px;
+}
+nav {
+    background: #08237e
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1em;
+    display: inline-block;
+    transition: 0.3s all;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background: #00b1f5;
+}
+nav ul li a.active {
+    background: #00b1f5;
+}
+nav form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+nav form .form-control {
+    background: #001446;
+    border: none;
+    border-radius: 0;
+    padding: 1em 2em;
+    display: block;
+    height: 100%;
+}
+nav form .form-control::placeholder {
+    color: white;
+}
+nav form .form-control:focus {
+    background: #001446;
+}
+nav form .search-button {
+    position: absolute;
+    right: 2em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    transition: 0.3s all;
+}
+nav form .search-button:hover {
+    color: #00b1f5;
+}
+#mainPageCarousel {
+    height: 70vh;
+    min-height: 500px;
+    background: black;
+}
+#mainPageCarousel .carousel-inner, 
+#mainPageCarousel .carousel-item,
+#mainPageCarousel .carousel-item img {
+    height: 100%;
+}
+#mainPageCarousel .carousel-item img {
+    object-fit: cover;
+    opacity: 0.6;
+}
+#mainPageCarousel span [class*="carousel-control"] {
+background: none;
+font-size: 1.5em;
+}
+#mainPageCarousel .carousel-caption {
+    text-align: left;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    border-left: 2px solid #00b1f5;
+    padding-left: 2em;
+}
+#mainPageCarousel .carousel-caption h5 {
+    font-size: 2em;
+    margin-bottom: 0;
+} 
+#mainPageCarousel .carousel-caption h4 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em; 
+}
+#mainPageCarousel .carousel-caption a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+.section {
+    padding: 7em 0;
+}
+.info-block p.leading-text {
+    color: #00b1f5;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.info-block h4 {
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    color: #06114f;
+}
+.info-block .info-text {
+    font-size: 1.1em;
+    line-height: 1.75em;
+    opacity: 0.9;
+}
+.info-block .btn {
+    margin-right: 1em;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.6em 1.5em;
+}
+.info-block .btn.quotation-button .fa-file {
+    margin-right: 3px;
+}

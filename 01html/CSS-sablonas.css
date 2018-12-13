@@ -1,0 +1,12 @@
+selektorius tiesioginis
+    p {    }
+selektorius pagal id 
+    #nurodytasID {  }
+selektorius pagal klase
+    .tekstas {  }
+selektorius isskirtiems elementams
+    p mark {  }
+selektorius grupei elementu
+    .tekstas, #id, a, p, body { }
+selektorius nuorodai
+    a:hover {  }

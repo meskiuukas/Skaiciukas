@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trecias Javascript</title>
+</head>
+<body>
+    <button onclick="pakeisti('tekstas','sis bei tas')">Pakeisti teksta 1</button>
+    <button onclick="pakeisti('tekstas','Isejo tevelis i miska')">Pakeisti teksta 2</button>
+    <button onclick="pakeisti('tekstas','Ka ten tas tevelis pamate')">Pakeisti teksta 3</button>
+    <button onclick="pakeisti('tekstas','Ka, ka, peleda pamate')">Pakeisti teksta 4</button>
+    <button onclick="pakeisti('tekstas','Cia mano norimas tekstas')">Pakeisti teksta 5</button>
+    <button onclick="pakeisti('tekstas','Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore eos placeat alias cumque nam repellat odio ut! Consequatur eius, eveniet sit rem blanditiis totam possimus praesentium, natus aliquid non excepturi.')">Pakeisti teksta 6</button><br>
+    <button onclick="pakeisti('tekstas2','Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore eos placeat alias cumque nam repellat odio ut! Consequatur eius, eveniet sit rem blanditiis totam possimus praesentium, natus aliquid non excepturi.')">Pakeisti antra pastraipa</button><br>
+<p id="tekstas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore eos placeat alias cumque nam repellat odio ut! Consequatur eius, eveniet sit rem blanditiis totam possimus praesentium, natus aliquid non excepturi.</p>
+<p id="tekstas2">Zinau zinau, lorem ir taip toliau.</p>
+<script>
+    function pakeisti(elementas, tekstas) {
+        document.getElementById(elementas).innerHTML=tekstas;
+    }
+</script>
+</body>
+</html>

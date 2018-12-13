@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url("pexels-photo-236047.jpeg");
+    color: azure;
+}
+.korteles, .card, .row {
+    margin-bottom: 2em;
+}

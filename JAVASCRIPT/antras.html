@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Antras Javascript</title>
+</head>
+<body>
+        <button onclick="pakeisti()">Pakeisti teksta</button>
+        <script> function pakeisti() {
+            document.getElementById("01").style.color='blue';
+            document.getElementById("02").style.fontSize='50px';
+            }</script>
+            <p id="01">Pirmas paragrafas</p>
+            <p id="02">Antras paragrafas</p>
+            <p id="03">Trecias paragrafas</p>
+            <p id="04">ketvirtas paragrafas</p>
+            <p id="05">Penktas paragrafas</p>
+        <button onclick="pastorinti()">Pastorinti teksta</button>
+        <script> function pastorinti() {
+                document.getElementById("03").style.fontWeight='bold';
+                document.getElementById("04").style.fontWeight='bold';
+                document.getElementById("05").style.fontWeight='bold';
+            }</script>
+</body>
+</html>

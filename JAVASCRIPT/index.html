@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java script</title>
+</head>
+<body>
+<button onclick="document.getElementById('paragrafas').innerHTML = 'Blablabla1'"> Pakeisti teksta</button>
+    <p id="paragrafas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam perferendis laboriosam nesciunt soluta libero reiciendis nisi maxime quas quos, modi impedit dicta dignissimos aliquam dolorem aut! Optio, unde porro.</p>
+<script>document.getElementById("paragrafas").innerHTML="Blablabla";
+</script>
+    <button onclick="document.getElementById('paragrafas2').innerHTML = 'Blablabla2'">
+    Pakeisti teksta 2
+</button>
+<p id="paragrafas2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nam assumenda laboriosam eum natus nesciunt, nisi vitae eaque voluptate? Enim exercitationem reprehenderit omnis aperiam quisquam itaque officiis maiores odio corporis.</p>
+<button onclick="document.getElementById('paragrafas').style.fontSize='50px'"> Pakeisti dydi</button><br>
+<button onclick="document.getElementById('paragrafas2').style.color='red'"> Pakeisti spalva</button><br>
+<button onclick="location.reload();">Atstatyti dydi ir spalva</button><br>
+<button onclick="document.getElementById('paragrafas2').style.fontSize='10px'"> padaryti maza</button><br>
+<button onclick="document.getElementById('paragrafas2').style.fontWeight='bold'"> Pastorinti</button><br>
+<button onclick="document.getElementById('paragrafas2').style.fontStyle='italic'"> Pasvires</button><br>
+<button onclick="document.getElementById('paragrafas2').style.fontWeight='initial'"> Nestoras</button><br>
+<button onclick="document.getElementById('lempute').src='pic_bulbon.gif'">Ijungti lempute</button><br>
+<button onclick="document.getElementById('lempute').src='pic_bulboff.gif'">Isjungti lempute</button><br>
+<img src="pic_bulboff.gif" alt="lempute" id="lempute">
+<div id="kvadratas" style="background:black;width:100px;height:100px"></div>
+<button onclick="document.getElementById('kvadratas').style.backgroundColor='red'">Kvadratas raudonas</button><br>
+<button onclick="document.getElementById('kvadratas').style.backgroundColor='black'">Kvadratas raudonas</button><br>
+<button onclick="pakeisti()">Pakeisti teksta</button>
+<p id="tekstas">Trampampamtralialialia prisiekiu savo makaule</p>
+<script> function pakeisti() {
+    document.getElementById("tekstas").innerHTML="naujas blabla";
+    document.getElementById("01").innerHTML="naujas blhabassdfdgh";
+    document.getElementById("02").innerHTML="xaxaxaxaxxaaxaxaxa";
+    document.getElementById("03").innerHTML="xoxoxoxoxoxoxoxoxox";
+    }</script>
+    <p id="01">Pirmas paragrafas</p>
+    <p id="02">Antras paragrafas</p>
+    <p id="03">Trecias paragrafas</p>
+</body>
+</html>
